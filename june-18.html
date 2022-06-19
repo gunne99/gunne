@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* direct child */
+        .container>p {
+            color: red;
+        }
+
+        /* before element */
+        .container+p {
+            color: blue;
+        }
+
+        input [type='text'] {
+            width: 100%;
+        }
+
+        a[target='_blank'] {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>i know exactly where u are</p>
+        <div>
+            <p>u want to play lets play</p>
+        </div>
+    </div>
+    <p>dont get on my way</p>
+    <label for="name"></label>
+    <input type="text" placeholder="name">
+    <input type="button" value="submit">
+
+    <a href="#">home</a>
+    <a href="https://www.youtube.com/" target="_blank">youtube</a>
+    <a href="https://www.facebook.com/">facbook</a>
+</body>
+
+</html>

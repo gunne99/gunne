@@ -1,0 +1,11 @@
+.ae {
+    height: 300px;
+    width: 20%;
+    background-color: aquamarine;
+}
+
+.ae:hover {
+    height: 500px;
+    width: 30%;
+    background-color: purple;
+}

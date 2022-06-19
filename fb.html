@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fdf7dd1f24.js" crossorigin="anonymous"></script>
+    <style>
+        .box {
+            height: 700px;
+            width: 400px;
+            box-shadow: 5px 5px 30px 5px #3333;
+            margin-left: 700px;
+            margin-top: 200px;
+            border: 3px solid #3333;
+            padding: 10px;
+        }
+
+        /* title */
+        .title {
+            height: 100px;
+            width: 100%;
+        }
+
+        .a1 {
+            font-size: 30px;
+        }
+
+        .a2 {
+            color: #8C8C8C;
+        }
+
+        /* info */
+        .info {
+            display: grid;
+            height: 200px;
+            width: 400px;
+        }
+
+        .b1 {
+            grid-area: 1/1/2/2;
+        }
+
+        .b2 {
+            grid-area: 1/2/2/3;
+        }
+
+        .b3 {
+            grid-area: 2/1/3/3;
+        }
+
+        .b4 {
+            grid-area: 3/1/4/3;
+        }
+
+
+
+
+        #fname {
+            height: 50px;
+            width: 90%;
+            font-size: 20px;
+        }
+
+        #lname {
+            height: 50px;
+            width: 96%;
+            font-size: 20px;
+        }
+
+        #mail {
+            height: 50px;
+            width: 98%;
+            font-size: 20px;
+        }
+
+        #pass {
+            width: 98%;
+            height: 50px;
+            font-size: 20px;
+        }
+
+
+
+        /* bday */
+
+        .birthday {
+            height: 80px;
+            width: 100%;
+        }
+
+
+
+        #month {
+            height: 50px;
+            width: 33%;
+            font-size: 20px;
+        }
+
+        #day {
+            height: 50px;
+            width: 33%;
+            font-size: 20px;
+        }
+
+        #year {
+            height: 50px;
+            width: 32%;
+            font-size: 20px;
+        }
+
+        /* gender */
+
+        .gender {
+            height: 60px;
+            width: 100%;
+            display: grid;
+        }
+
+        #gen {
+            font-size: 20px;
+
+        }
+
+        .gend {
+            grid-area: 1/1/2/2;
+
+        }
+
+        .fem {
+            grid-area: 2/1/3/2;
+            border: 1px solid;
+            height: 50px;
+            width: 95%;
+
+        }
+
+        .mal {
+            grid-area: 2/2/3/3;
+            border: 1px solid;
+            height: 50px;
+            width: 95%;
+
+        }
+
+        .cus {
+            grid-area: 2/3/3/4;
+            border: 1px solid;
+            height: 50px;
+            width: 95%;
+
+        }
+
+        .items {
+            height: 130px;
+        }
+
+        .c1 {
+            margin-top: 20px;
+        }
+
+        .c2 {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: green;
+            padding: 3px;
+            border-radius: 10px;
+            width: 150px;
+            height: 50px;
+            color: white;
+            border: 2px white;
+            margin-left: 130px;
+            font-size: 20px;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="title">
+            <div class="a1">Sign up</div>
+            <div class="a2">Its quick and easy.</div>
+            <div class="a3">__________________________________________________</div>
+        </div>
+        <div class="info">
+            <div class="b b1">
+                <input type="text" placeholder="First name" id="fname">
+            </div>
+            <div class="b b2">
+                <input type="text" placeholder="Last name" id="lname">
+            </div>
+            <div class="bb b3">
+                <label for="mail"></label>
+                <input type="text" placeholder="Mobile number or email" id="mail">
+            </div>
+            <div class="bb b4">
+                <input type="password" placeholder="New password" id="pass">
+            </div>
+        </div>
+        <div class="birthday">
+            <div class="bday">
+                <span>birthday</span>
+                <i class="fa-solid fa-circle-question"></i>
+            </div>
+            <label for="birthday"></label>
+            <select name="month" id="month">
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+            <select name="day" id="day">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+            <select name="year" id="year">
+                <option value="">1950-1970</option>
+                <option value="">1970-2000</option>
+                <option value="">2000-2010</option>
+                <option value="">2010-2022</option>
+
+            </select>
+        </div>
+        <div class="gender">
+            <div class="gend">
+                <span>Gender</span>
+                <i class="fa-solid fa-circle-question"></i>
+            </div>
+            <div class="fem">
+                <label for="gender" id="gen">Female</label>
+                <input type="radio" id="gen">
+            </div>
+            <div class="mal">
+                <label for="gender" id="gen">Male</label>
+                <input type="radio" id="gen">
+            </div>
+            <div class="cus">
+                <label for="gender" id="gen">Custom</label>
+                <input type="radio" id="gen">
+            </div>
+        </div>
+        <div class="items">
+            <div class="c1">
+                <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cupiditate. Aliquid reprehenderit
+                    maxime similique molestias!</p1>
+                <a href="https://www.facebook.com/help/637205020878504">Learn more</a>
+            </div>
+            <div class="c2">
+                <p2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur et molestiae sequi consequatur
+                    perspiciatis, necessitatibu!</p2>
+                <a href="https://www.facebook.com/legal/terms/update">Terms</a>
+            </div>
+        </div>
+        <div class="button">
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+
+</html>
