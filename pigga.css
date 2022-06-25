@@ -1,0 +1,125 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.nav-bar {
+    width: 100%;
+    padding: 5px 0;
+    background-color: #1D1D1D;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* first half */
+
+.a1 {
+    width: 100%;
+}
+
+.aa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 55px;
+}
+
+
+.aa1 {
+    color: #bc8c4c;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.aa2 {
+    color: #AAAAAA;
+}
+
+/* second half */
+
+.menu-section {
+    border-bottom: 2px solid gray;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.us {
+    color: white;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.us:hover {
+    color: #AAAAAA;
+}
+
+
+
+.comp {
+    width: 80px;
+    color: white;
+    padding: 5px;
+    background-color: #bc8c4c;
+    border-radius: 3px;
+}
+
+.comp:hover {
+    background-color: #966729;
+}
+
+/* welcome */
+.welcome {
+    height: 800px;
+    width: 100%;
+    position: relative;
+
+}
+
+.welcome img {
+    height: 700px;
+    width: 100%;
+}
+
+.table {
+    height: 30px;
+    width: 98px;
+    padding: 0.55rem 1.125rem;
+    border-radius: 5px;
+    background-color: #bc8c4c;
+    color: white;
+    position: absolute;
+    top: 544px;
+    left: 897px;
+    font-size: 20px;
+}
+
+.table:hover {
+    background-color: #966729;
+}
+
+/* info */
+.info {
+    width: 100%;
+    height: 1500;
+    border: 1px solid;
+}
